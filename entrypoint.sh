@@ -33,7 +33,6 @@ fi
 
 # 执行用户定义的脚步
 if [ -f "/data/start.sh" ]; then
-    rm -rf /data/node_modules && ln -s /root/node_modules /data/node_modules
     bash /data/start.sh
 fi
 
